@@ -4,10 +4,10 @@ def main():
     st.write("### Neural Network")
 
     st.write("Import libraries for use in Neural Network")
-    st.image("code_image\library_NN.png", caption="Import library", use_container_width=True)
+    st.image("code_image\Library_NN.png", caption="Import library", use_container_width=True)
 
     st.write("I used the dataset from https://www.kaggle.com/datasets/duongtruongbinh/manga-and-anime-dataset using the file anime.csv but due to uploading issue with my file anime_path = 'data\ anime.csv' (\ a is an escape character) it failed to upload so I renamed the file to data-anime.csv.")
-    st.image("code_image\load_process_data_NN.png", caption="Load and Process data", use_container_width=True)
+    st.image("code_image\Load_process_data_NN.png", caption="Load and Process data", use_container_width=True)
 
     st.image("code_image\Train_FNN_NN.png", caption="Train the FNN model", use_container_width=True)
 

@@ -4,10 +4,10 @@ def main():
     st.write("### Machine Learning")
 
     st.write("Import libraries for use in Machine learning")
-    st.image("code_image\library_ML.png", caption="Import library", use_container_width=True)
+    st.image("code_image\Library_ML.png", caption="Import library", use_container_width=True)
 
     st.write("I used the dataset from https://www.kaggle.com/datasets/duongtruongbinh/manga-and-anime-dataset using the manga.csv file.")
-    st.image("code_image\load_process_data_ML.png", caption="Load and Process data", use_container_width=True)
+    st.image("code_image\Load_process_data_ML.png", caption="Load and Process data", use_container_width=True)
 
     st.image("code_image\Train_SVM_KNN_ML.png", caption="Train SVM and KNN models", use_container_width=True)
 
