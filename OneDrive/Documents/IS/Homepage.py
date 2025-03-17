@@ -16,10 +16,10 @@ if page == "Homepage":
     
     with col1:
         if st.button("Machine Learning"):
-            st.switch_page("pages\ProcessMachine_Learning.py")
+            st.switch_page("pages/ProcessMachine_Learning.py")
     
     with col2:
         if st.button("Neural Network"):
-            st.switch_page("pages\ProcessNeural_Network.py")
+            st.switch_page("pages/ProcessNeural_Network.py")
 
 
