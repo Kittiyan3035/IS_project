@@ -22,4 +22,16 @@ if page == "Homepage":
         if st.button("Neural Network"):
             st.switch_page("pages/ProcessNeural_Network.py")
 
+elif page == "Machine Learning":
+    st.switch_page("pages/ProcessMachine_Learning.py")
+
+elif page == "Machine Learning Models":
+    st.switch_page("pages/Models_ML.py")
+
+elif page == "Neural Network":
+    st.switch_page("pages/ProcessNeural_Network.py")
+
+elif page == "Neural Network Models":
+    st.switch_page("pages/Models_NN.py")
+
 
